@@ -180,7 +180,6 @@ header::after {
 .nav-link:hover {
     border-color: white;
     background-color: white;
-    transition: .2s;
 }
 
 .bg-secondary {
@@ -189,7 +188,7 @@ header::after {
 
 .bg-secondary .late {
     padding: 120px 0;
-    width: 80%;
+    width: 100%;
     position: relative;
 }
 
@@ -197,13 +196,15 @@ header::after {
 .bg-secondary .second-column,
 .bg-secondary .third-column {
     display: inline-block;
-    width: 43%;
+    width: 30%;
     position: absolute;
+    color: #ffffff;
+    text-align: center;
 }
 
 .bg-secondary .first-column {
     top: 0;
-    left: 0;
+    left: 15%;
 }
 
 .location,
@@ -220,7 +221,8 @@ header::after {
 
 .bg-secondary .second-column {
     top: 0%;
-    left: 33%;
+    left: 34%;
+    text-align: center;
 }
 
 .bg-secondary .second-column ul {
@@ -231,7 +233,7 @@ header::after {
 
 .bg-secondary .second-column li {
     display: inline-block;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 .bg-secondary .second-column a {
@@ -246,12 +248,13 @@ header::after {
 
 .bg-secondary .third-column {
     top: 0;
-    right: 0;
-    width: 25%;
+    right: 15%;
+    width: 23%;
 }
 
 .bg-secondary .third-column p {
     margin: 0;
+    padding-top: 15px;
 }
 
 .bg-secondary .third-column a {
