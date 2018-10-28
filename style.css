@@ -12,7 +12,7 @@ header {
 }
 
 header+* {
-    margin-top: 85px;
+    margin-top: 80px;
 }
 
 section {
@@ -21,7 +21,7 @@ section {
 
 footer {
     padding: 80px 0 0;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .bg-primary {
@@ -175,4 +175,86 @@ header::after {
     background-color: white;
     color: #2c3e50;
     transition: .2s;
+}
+
+.nav-link:hover {
+    border-color: white;
+    background-color: white;
+    transition: .2s;
+}
+
+.bg-secondary {
+    margin: 0;
+}
+
+.bg-secondary .late {
+    padding: 120px 0;
+    width: 80%;
+    position: relative;
+}
+
+.bg-secondary .first-column,
+.bg-secondary .second-column,
+.bg-secondary .third-column {
+    display: inline-block;
+    width: 43%;
+    position: absolute;
+}
+
+.bg-secondary .first-column {
+    top: 0;
+    left: 0;
+}
+
+.location,
+.atw,
+.ab-free {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.bg-secondary .first-column .info {
+    display: block;
+    text-transform: none;
+}
+
+.bg-secondary .second-column {
+    top: 0%;
+    left: 33%;
+}
+
+.bg-secondary .second-column ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.bg-secondary .second-column li {
+    display: inline-block;
+    padding-top: 25px;
+}
+
+.bg-secondary .second-column a {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 8px 12px;
+    margin: 0 5px 0 0;
+}
+
+.bg-secondary .third-column {
+    top: 0;
+    right: 0;
+    width: 25%;
+}
+
+.bg-secondary .third-column p {
+    margin: 0;
+}
+
+.bg-secondary .third-column a {
+    color: #18bc9c;
+    padding: 0;
 }
